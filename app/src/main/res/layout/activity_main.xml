@@ -3,8 +3,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    android:background="@color/black">
+    android:orientation="vertical">
 
     <View
         android:layout_width="match_parent"
@@ -12,12 +11,10 @@
         android:layout_weight="1"
         android:background="#008000" />
 
-    <ImageView
+    <View
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_weight="1"
-        android:scaleType="centerInside"
-        android:src="@drawable/bandera"
         android:background="@color/white"/>
 
     <View
